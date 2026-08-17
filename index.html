@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chelsea, MI — Community Activities & Directory</title>
+  <meta name="description" content="A simple, quirky quick directory for community activities, youth sports, scouting, and arts in Chelsea, Michigan. Home of chelseami.us, ChelseaMichigan.us, and ChelseaMI.info.">
+  
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chelsea, MI — Community Directory">
+  <meta property="og:description" content="Quick directory of youth sports, scouting, theater, and activities in Chelsea, MI.">
+  <meta property="og:image" content="assets/favicon.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="assets/favicon.svg">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- ====================================================================== -->
+  <!-- GOOGLE ANALYTICS 4 (GA4)                                              -->
+  <!-- Replace 'G-XXXXXXXXXX' below with your actual Google Analytics ID     -->
+  <!-- ====================================================================== -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    // Replace G-XXXXXXXXXX with your actual GA4 Measurement ID
+    gtag('config', 'G-XXXXXXXXXX', {
+      cookie_domain: 'auto',
+      anonymize_ip: true
+    });
+  </script>
+</head>
+<body>
+
+  <!-- Top Multi-Domain Greeting Banner -->
+  <aside class="domain-banner-bar" role="region" aria-label="Domain notice">
+    <span class="domain-pill" id="current-domain-badge">chelseami.us</span>
+    <span id="domain-greeting-text">Welcome to Chelsea's quickest activity directory!</span>
+    <span class="domain-alias-list">· chelseami.us · ChelseaMichigan.us · ChelseaMI.info</span>
+  </aside>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="brand-badge-wrap">
+      <span class="brand-badge-dot"></span>
+      <span>Chelsea, MI Community Hub</span>
+    </div>
+    
+    <h1 class="hero-title">
+      Small Town, Big Heart,<br>
+      <span class="highlight-pink">Awesome Activities</span> in <span class="highlight-blue">Chelsea</span>
+    </h1>
+
+    <p class="hero-subtitle">
+      A simple, fun directory of the sports, theater, scouting, and community groups we love and are involved in.
+    </p>
+
+    <!-- Search & Filters -->
+    <section class="controls-section" aria-label="Search and Filter">
+      <div class="search-box-wrapper">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input type="search" 
+               id="search-input" 
+               class="search-input" 
+               placeholder="Search activities, teams, meetings, keywords..." 
+               aria-label="Search directory" 
+               autocomplete="off">
+        <span class="search-kbd-hint" aria-hidden="true">/</span>
+      </div>
+
+      <nav class="category-filter-bar" id="category-filter-bar" aria-label="Category filters">
+        <!-- Populated dynamically by app.js -->
+      </nav>
+    </section>
+  </header>
+
+  <!-- Main Directory Section -->
+  <main class="main-container">
+    <div class="directory-grid" id="directory-grid">
+      <!-- Cards rendered dynamically by app.js -->
+      <noscript>
+        <div class="no-results-box" style="grid-column: 1 / -1;">
+          <h2>JavaScript Required</h2>
+          <p>Please enable JavaScript to search and explore the Chelsea community directory.</p>
+        </div>
+      </noscript>
+    </div>
+  </main>
+
+  <!-- Activity Detail Modal -->
+  <div class="modal-backdrop" id="activity-modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-container">
+      <button type="button" class="modal-close-btn" onclick="closeActivityModal()" aria-label="Close modal">✕</button>
+      <div id="modal-dynamic-content">
+        <!-- Populated dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-domains-list">
+        <span class="footer-domain-tag">chelseami.us</span>
+        <span class="footer-domain-tag">ChelseaMichigan.us</span>
+        <span class="footer-domain-tag">ChelseaMI.info</span>
+      </div>
+      <p class="footer-text">
+        © <span id="copyright-year">2026</span> Chelsea Community Directory. Made with ❤️ in Chelsea, Michigan.
+      </p>
+      <p class="footer-quirk">
+        Inspired by the fun simplicity of Porkbun. No clutter, no popups, just good local community vibes.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Set dynamic current year in footer
+    document.getElementById('copyright-year').textContent = new Date().getFullYear();
+  </script>
+  <!-- App Scripts -->
+  <script src="js/activities.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
