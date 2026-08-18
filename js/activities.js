@@ -69,14 +69,14 @@ const ACTIVITIES = [
       season: "Fall Season (August – October) + Spring Skills Clinics"
     },
     contact: {
-      role: "Head Coach & Booster Club",
+      role: "Coach Leslie Fry",
       email: "lsfry6@gmail.com",
       phone: ""
     },
     links: [
       { label: "Live Schedule on sportsYou", url: "https://sportsyou.com/teams/te-c0c6c546-4cdf-489f-9b3d-40991873b98b", primary: true },
       { label: "Chelsea Bulldogs Athletics (chelseabulldogs.org)", url: "https://chelseabulldogs.org/", primary: false },
-      { label: "Email Coach (lsfry6@gmail.com)", url: "mailto:lsfry6@gmail.com", primary: false }
+      { label: "Email Coach Fry (lsfry6@gmail.com)", url: "mailto:lsfry6@gmail.com", primary: false }
     ],
     tags: ["field hockey", "sports", "bulldogs", "turf", "fall", "athletics", "girls sports"]
   },
@@ -108,8 +108,8 @@ const ACTIVITIES = [
     },
     links: [
       { label: "Live Team Hub on sportsYou", url: "https://sportsyou.com/teams/te-0351f523-524d-45de-be90-e649f04a039d", primary: true },
-      { label: "Email Coach Haas (ahaas@chelseaschools.org)", url: "mailto:ahaas@chelseaschools.org", primary: false },
-      { label: "Chelsea Bulldogs Athletics", url: "https://chelseabulldogs.org/", primary: false }
+      { label: "Chelsea Bulldogs Athletics", url: "https://chelseabulldogs.org/", primary: false },
+      { label: "Email Coach Haas (ahaas@chelseaschools.org)", url: "mailto:ahaas@chelseaschools.org", primary: false }
     ],
     tags: ["lacrosse", "lax", "girls lacrosse", "10u", "12u", "14u", "spring sports", "athletics", "bulldogs"]
   },
