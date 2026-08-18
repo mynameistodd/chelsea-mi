@@ -75,7 +75,7 @@ const ACTIVITIES = [
     },
     links: [
       { label: "Live Schedule on sportsYou", url: "https://sportsyou.com/teams/te-c0c6c546-4cdf-489f-9b3d-40991873b98b", primary: true },
-      { label: "Chelsea Athletics Portal", url: "https://chelseaathletics.net", primary: false },
+      { label: "Chelsea Bulldogs Athletics (chelseabulldogs.org)", url: "https://chelseabulldogs.org/", primary: false },
       { label: "Email Coach (lsfry6@gmail.com)", url: "mailto:lsfry6@gmail.com", primary: false }
     ],
     tags: ["field hockey", "sports", "bulldogs", "turf", "fall", "athletics", "girls sports"]
