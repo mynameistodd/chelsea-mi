@@ -141,7 +141,7 @@ const ACTIVITIES = [
     },
     links: [
       { label: "Email Director DeLand (jdeland@chelseaschools.org)", url: "mailto:jdeland@chelseaschools.org", primary: true },
-      { label: "Beach Middle School Portal", url: "https://www.chelsea.k12.mi.us/beach-middle-school", primary: false }
+      { label: "Beach Middle School Portal", url: "https://beach.chelseaschools.org/", primary: false }
     ],
     tags: ["drama", "theater", "acting", "musical", "bms", "beach middle school", "stage crew", "arts", "middle school", "jessica deland"]
   },
