@@ -23,49 +23,49 @@ const ACTIVITIES = [
     icon: "🏕️",
     accentColor: "#f59e0b",
     badge: "Grades K–5",
-    tagline: "Pinewood derby racers, rocket builders, and outdoor adventurers.",
+    tagline: "Pinewood derby racers, service projects, and outdoor adventurers.",
     description: "Chelsea's Cub Scout Pack 455 brings boys and girls in Kindergarten through 5th grade together for camping trips, hands-on STEM experiments, community service, and our famous annual Pinewood Derby race!",
     quirkyFact: "Over 50+ hand-carved Pinewood Derby cars hit the track every winter in Chelsea!",
     location: {
-      venue: "Beach Middle School / North Creek & Chelsea Fairgrounds",
+      venue: "North Creek Elementary School",
       city: "Chelsea, MI 48118",
-      mapUrl: "https://maps.google.com/?q=Beach+Middle+School+Chelsea+MI"
+      mapUrl: "https://maps.google.com/?q=North+Creek+Elementary+School+Chelsea+MI"
     },
     schedule: {
-      timing: "Pack Meetings 1x/month (Mondays @ 6:30 PM), Den Meetings bi-weekly",
+      timing: "Pack Meetings 1x/month (First Wednesday of the month @ 6:00 PM), Den Meetings vary",
       season: "Year-Round (Active school year + Summer camps)"
     },
     contact: {
       role: "Cubmaster & Committee",
-      email: "chelseapack455@gmail.com",
+      email: "pack455chelsea@gmail.com",
       phone: ""
     },
     links: [
-      { label: "Join Pack 455 (BeAScout.org)", url: "https://beascout.scouting.org/", primary: true },
-      { label: "Pack Calendar & Events", url: "#", primary: false },
-      { label: "Email Leadership", url: "mailto:chelseapack455@gmail.com", primary: false }
+      { label: "Join Pack 455 (BeAScout.org)", url: "https://beascout.scouting.org/units/402915b9-577d-4cc8-acdf-8e3a56627ad4", primary: true },
+      { label: "Pack Calendar & Events", url: "https://www.facebook.com/cubscoutspack455", primary: false },
+      { label: "Email Leadership", url: "mailto:pack455chelsea@gmail.com", primary: false }
     ],
     tags: ["scouts", "camping", "derby", "kids", "outdoor", "stem", "pack 455", "elementary"]
   },
   {
     id: "field-hockey",
-    title: "Chelsea Field Hockey",
+    title: "Middle School Field Hockey",
     shortName: "Field Hockey",
     category: "sports",
     categoryLabel: "Sports & Athletics",
     icon: "🏑",
     accentColor: "#0284c7",
-    badge: "Youth to Varsity",
+    badge: "Grades 6-8",
     tagline: "Fast turf, sharp sticks, and proud Chelsea Bulldog spirit.",
-    description: "Chelsea Field Hockey offers competitive and developmental field hockey programs for youth through high school. Learn stick skills, tactical passing, and team camaraderie on the turf.",
+    description: "Chelsea Field Hockey offers competitive and developmental field hockey programs for middle school students. Learn stick skills, tactical passing, and team camaraderie on the turf.",
     quirkyFact: "Field hockey balls can travel upwards of 90 mph off a clean drive!",
     location: {
-      venue: "Chelsea High School Stadium / Athletic Fields",
-      city: "Chelsea, MI 48118",
-      mapUrl: "https://maps.google.com/?q=Chelsea+High+School+Chelsea+MI"
+      venue: "Various Locations (Home & Away Venues)",
+      city: "Chelsea & Travel (Check sportsYou for each game/practice)",
+      mapUrl: "https://sportsyou.com/teams/te-c0c6c546-4cdf-489f-9b3d-40991873b98b"
     },
     schedule: {
-      timing: "Practices 3-4x/week after school; Game days Tuesdays & Thursdays",
+      timing: "Times & locations vary — check sportsYou for live daily updates",
       season: "Fall Season (August – October) + Spring Skills Clinics"
     },
     contact: {
@@ -74,8 +74,8 @@ const ACTIVITIES = [
       phone: ""
     },
     links: [
-      { label: "Team Schedule & Roster", url: "https://chelseaathletics.net", primary: true },
-      { label: "Registration & Gear Guide", url: "#", primary: false },
+      { label: "Live Schedule on sportsYou", url: "https://sportsyou.com/teams/te-c0c6c546-4cdf-489f-9b3d-40991873b98b", primary: true },
+      { label: "Chelsea Athletics Portal", url: "https://chelseaathletics.net", primary: false },
       { label: "Contact Coaching Staff", url: "mailto:chelseafieldhockey@gmail.com", primary: false }
     ],
     tags: ["field hockey", "sports", "bulldogs", "turf", "fall", "athletics", "girls sports"]
