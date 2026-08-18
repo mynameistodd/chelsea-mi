@@ -82,36 +82,36 @@ const ACTIVITIES = [
   },
   {
     id: "lacrosse-lacroix",
-    title: "Chelsea Lacrosse (\"Lacroix\")",
-    shortName: "Bulldogs Lacrosse",
+    title: "Chelsea Girls Lacrosse (\"Lacroix\")",
+    shortName: "Girls Lacrosse",
     category: "sports",
     categoryLabel: "Sports & Athletics",
     icon: "🥍",
     accentColor: "#10b981",
-    badge: "Boys & Girls Youth / HS",
+    badge: "10U – 14U Girls",
     tagline: "The fastest game on two feet (sparkling with Bulldog grit).",
-    description: "From cradling and fast breaks to stingy defense, Chelsea Bulldogs Lacrosse welcomes youth and high school players looking to master North America's oldest team sport.",
+    description: "Chelsea Girls Lacrosse program for 10U through 14U players. Learn cradling, stick skills, shooting, and competitive team play for the upcoming spring season!",
     quirkyFact: "Pronounce it Lacrosse or 'Lacroix' — either way, it's 100% pure Bulldog speed and energy.",
     location: {
-      venue: "Pierce Lake Fields & CHS Stadium",
+      venue: "Chelsea Athletic Fields (Home & Away Venues)",
       city: "Chelsea, MI 48118",
-      mapUrl: "https://maps.google.com/?q=Pierce+Lake+Elementary+Chelsea+MI"
+      mapUrl: "https://sportsyou.com/teams/te-0351f523-524d-45de-be90-e649f04a039d"
     },
     schedule: {
-      timing: "Weeknights 5:30 - 7:30 PM, Weekend Tournaments & Home Games",
-      season: "Spring Season (March – June) + Winter Indoor Conditioning"
+      timing: "Spring season schedule & practice times will be posted on sportsYou as spring approaches",
+      season: "Spring Season (March – June)"
     },
     contact: {
-      role: "Chelsea Lacrosse Club Board",
-      email: "chelsealacrosseclub@gmail.com",
+      role: "Coach Amielia Haas",
+      email: "ahaas@chelseaschools.org",
       phone: ""
     },
     links: [
-      { label: "Spring Registration", url: "#", primary: true },
-      { label: "Game Schedules & Tournaments", url: "#", primary: false },
-      { label: "Equipment Checklist", url: "#", primary: false }
+      { label: "Live Team Hub on sportsYou", url: "https://sportsyou.com/teams/te-0351f523-524d-45de-be90-e649f04a039d", primary: true },
+      { label: "Email Coach Haas (ahaas@chelseaschools.org)", url: "mailto:ahaas@chelseaschools.org", primary: false },
+      { label: "Chelsea Bulldogs Athletics", url: "https://chelseabulldogs.org/", primary: false }
     ],
-    tags: ["lacrosse", "lacroix", "lax", "spring sports", "athletics", "bulldogs", "youth sports"]
+    tags: ["lacrosse", "lacroix", "lax", "girls lacrosse", "10u", "12u", "14u", "spring sports", "athletics", "bulldogs"]
   },
   {
     id: "beach-ms-drama",
