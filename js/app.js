@@ -155,6 +155,10 @@ function renderDirectory() {
   // Generate cards
   const cardsHtml = filtered.map(item => createCardHtml(item)).join('');
 
+  const suggestUrl = (typeof SITE_CONFIG !== 'undefined' && SITE_CONFIG.suggestActivityFormUrl) 
+    ? SITE_CONFIG.suggestActivityFormUrl 
+    : 'https://forms.google.com/';
+
   // Add the fun "Suggest an Activity" card at the end
   const suggestCardHtml = `
     <div class="activity-card suggest-card">
@@ -163,8 +167,8 @@ function renderDirectory() {
       <p class="card-description" style="margin-bottom: 20px;">
         Know another Chelsea club, team, or community group that should be listed here?
       </p>
-      <a href="mailto:info@chelseami.us?subject=New%20Chelsea%20Activity%20Suggestion" class="btn btn-primary" onclick="trackGAEvent('click_suggest_activity')">
-        Suggest an Activity ✉️
+      <a href="${suggestUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" onclick="trackGAEvent('click_suggest_activity')">
+        Suggest via Google Form 📝
       </a>
     </div>
   `;

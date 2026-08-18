@@ -1,10 +1,18 @@
 /**
  * Chelsea, MI Activities & Community Directory Data
  * 
- * To add a new activity:
- * Simply add a new object to the `ACTIVITIES` array below.
+ * Global Settings & Form Links
  */
+const SITE_CONFIG = {
+  // Replace this with your actual Google Form URL (e.g. https://forms.gle/XXXXXX)
+  suggestActivityFormUrl: "https://forms.google.com/",
+  contactEmail: "info@chelseami.us"
+};
 
+/**
+ * Activities Dataset
+ * To add a new activity, add an object to the ACTIVITIES array below.
+ */
 const ACTIVITIES = [
   {
     id: "cub-scout-pack-455",
