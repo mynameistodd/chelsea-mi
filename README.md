@@ -15,7 +15,7 @@ Designed to serve as the unified landing hub for:
 - **Core Activity Directory**:
   - 🏕️ **Cub Scout Pack 455** (Pinewood derby, camping, STEM, Grades K–5)
   - 🏑 **Chelsea Field Hockey** (Youth to Varsity fall season & turf clinics)
-  - 🥍 **Chelsea Lacrosse ("Lacroix")** (Spring season boys & girls Bulldogs lacrosse)
+  - 🥍 **Chelsea Girls Lacrosse** (Spring season 10U–14U girls Bulldogs lacrosse)
   - 🎭 **Beach Middle School Drama** (Fall plays, spring musicals, stage crew)
   - ⚾ **Dirt Dogz Baseball** (Youth travel baseball, tournament schedule)
   - 💡 **Suggest an Activity** card for community expansion.

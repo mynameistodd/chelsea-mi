@@ -81,17 +81,17 @@ const ACTIVITIES = [
     tags: ["field hockey", "sports", "bulldogs", "turf", "fall", "athletics", "girls sports"]
   },
   {
-    id: "lacrosse-lacroix",
-    title: "Chelsea Girls Lacrosse (\"Lacroix\")",
+    id: "chelsea-girls-lacrosse",
+    title: "Chelsea Girls Lacrosse",
     shortName: "Girls Lacrosse",
     category: "sports",
     categoryLabel: "Sports & Athletics",
     icon: "🥍",
     accentColor: "#10b981",
     badge: "10U – 14U Girls",
-    tagline: "The fastest game on two feet (sparkling with Bulldog grit).",
+    tagline: "The fastest game on two feet (powered by Bulldog grit).",
     description: "Chelsea Girls Lacrosse program for 10U through 14U players. Learn cradling, stick skills, shooting, and competitive team play for the upcoming spring season!",
-    quirkyFact: "Pronounce it Lacrosse or 'Lacroix' — either way, it's 100% pure Bulldog speed and energy.",
+    quirkyFact: "Lacrosse is North America's oldest organized sport, and Chelsea girls bring serious speed to the turf!",
     location: {
       venue: "Chelsea Athletic Fields (Home & Away Venues)",
       city: "Chelsea, MI 48118",
@@ -111,7 +111,7 @@ const ACTIVITIES = [
       { label: "Email Coach Haas (ahaas@chelseaschools.org)", url: "mailto:ahaas@chelseaschools.org", primary: false },
       { label: "Chelsea Bulldogs Athletics", url: "https://chelseabulldogs.org/", primary: false }
     ],
-    tags: ["lacrosse", "lacroix", "lax", "girls lacrosse", "10u", "12u", "14u", "spring sports", "athletics", "bulldogs"]
+    tags: ["lacrosse", "lax", "girls lacrosse", "10u", "12u", "14u", "spring sports", "athletics", "bulldogs"]
   },
   {
     id: "beach-ms-drama",
