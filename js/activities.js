@@ -158,13 +158,13 @@ const ACTIVITIES = [
     description: "Dirt Dogz Baseball is Chelsea's hard-working youth travel baseball team. Dedicated to player development, sportsmanship, competitive tournament play, and having a blast on the diamond.",
     quirkyFact: "If your uniform isn't covered in red clay and diamond dust by the 4th inning, were you even playing?",
     location: {
-      venue: "Chelsea Community Fields & Regional Tournament Parks",
-      city: "Chelsea & Southeast Michigan",
-      mapUrl: "https://maps.google.com/?q=Chelsea+MI+Community+Fields"
+      venue: "Various Locations (Chelsea fields & regional tournament parks)",
+      city: "Chelsea & Southeast Michigan (Locations vary)",
+      mapUrl: "https://www.dirtdogzbaseball.org/"
     },
     schedule: {
-      timing: "Practices 2x/week, Weekend Doubleheaders & Regional Tournaments",
-      season: "Spring & Summer Season (April – July) + Winter Hitting Workouts"
+      timing: "Practices not set yet — locations and game times vary (check website for updates)",
+      season: "Spring & Summer Season (April – July)"
     },
     contact: {
       role: "Head Coach David Wine",
