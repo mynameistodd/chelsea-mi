@@ -167,16 +167,15 @@ const ACTIVITIES = [
       season: "Spring & Summer Season (April – July) + Winter Hitting Workouts"
     },
     contact: {
-      role: "Team Manager & Coaching Staff",
-      email: "dirtdogzbaseball@gmail.com",
+      role: "Head Coach David Wine",
+      email: "winedavid14@gmail.com",
       phone: ""
     },
     links: [
-      { label: "Roster & Schedule", url: "#", primary: true },
-      { label: "Tryouts & Camp Info", url: "#", primary: false },
-      { label: "Contact Manager", url: "mailto:dirtdogzbaseball@gmail.com", primary: false }
+      { label: "Dirt Dogz Baseball Website", url: "https://www.dirtdogzbaseball.org/", primary: true },
+      { label: "Email Coach Wine (winedavid14@gmail.com)", url: "mailto:winedavid14@gmail.com", primary: false }
     ],
-    tags: ["baseball", "dirt dogz", "travel ball", "youth baseball", "sports", "summer", "tournaments"]
+    tags: ["baseball", "dirt dogz", "travel ball", "youth baseball", "sports", "summer", "tournaments", "david wine"]
   }
 ];
 
