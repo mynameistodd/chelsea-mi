@@ -121,30 +121,29 @@ const ACTIVITIES = [
     categoryLabel: "Arts & Theater",
     icon: "🎭",
     accentColor: "#ec4899",
-    badge: "Grades 6–8",
+    badge: "Grades 6–8 (Middle School)",
     tagline: "Center stage spotlights, backstage magic, and epic standing ovations.",
-    description: "Beach Middle School Drama puts on spectacular fall plays and energetic spring musicals. Whether you want to sing, act, run stage lighting, manage sound, or build sets, there's a spotlight for everyone.",
-    quirkyFact: "Over 80+ BMS students participate each year between cast, tech crew, pit band, and set painters!",
+    description: "Beach Middle School Drama brings 6th–8th grade students together for an annual spring production. Whether you want to act, sing, run stage lighting, handle sound, or build sets, there's a place for everyone!",
+    quirkyFact: "From auditions to opening night, BMS students take charge of both the stage and backstage tech crew!",
     location: {
       venue: "Beach Middle School Auditorium",
       city: "Chelsea, MI 48118",
       mapUrl: "https://maps.google.com/?q=Beach+Middle+School+Chelsea+MI"
     },
     schedule: {
-      timing: "Rehearsals Monday–Thursday 3:15 – 5:15 PM leading up to show weekend",
-      season: "Fall Play (Nov) & Spring Musical (March/April)"
+      timing: "Annual production typically runs in March — rehearsal and audition schedules announced as showtime approaches",
+      season: "Annual Spring Show (Typically March)"
     },
     contact: {
-      role: "Drama Directors & BMS Boosters",
-      email: "bmsdrama@chelsea.k12.mi.us",
+      role: "Director Jessica DeLand",
+      email: "jdeland@chelseaschools.org",
       phone: ""
     },
     links: [
-      { label: "Ticket Box Office & Showtimes", url: "#", primary: true },
-      { label: "Audition & Crew Signups", url: "#", primary: false },
-      { label: "Rehearsal Master Schedule", url: "#", primary: false }
+      { label: "Email Director DeLand (jdeland@chelseaschools.org)", url: "mailto:jdeland@chelseaschools.org", primary: true },
+      { label: "Beach Middle School Portal", url: "https://www.chelsea.k12.mi.us/beach-middle-school", primary: false }
     ],
-    tags: ["drama", "theater", "acting", "musical", "bms", "beach middle school", "stage crew", "arts"]
+    tags: ["drama", "theater", "acting", "musical", "bms", "beach middle school", "stage crew", "arts", "middle school", "jessica deland"]
   },
   {
     id: "dirt-dogz-baseball",
