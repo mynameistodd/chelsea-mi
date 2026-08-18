@@ -4,8 +4,7 @@
  * Global Settings & Form Links
  */
 const SITE_CONFIG = {
-  // Replace this with your actual Google Form URL (e.g. https://forms.gle/XXXXXX)
-  suggestActivityFormUrl: "https://forms.google.com/",
+  suggestActivityFormUrl: "https://forms.gle/S4j4YJZSLQ89kwZ16",
   contactEmail: "info@chelseami.us"
 };
 
