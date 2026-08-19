@@ -1,6 +1,6 @@
 # Chelsea, MI Community Activity Directory
 
-A fast, lightweight, quirky landing page and community activity directory inspired by the playful simplicity of **[Porkbun.com](https://porkbun.com)**.
+A fast, lightweight, fun landing page and community activity directory for Chelsea, Michigan.
 
 Designed to serve as the unified landing hub for:
 - **`chelseami.us`**
@@ -11,7 +11,7 @@ Designed to serve as the unified landing hub for:
 
 ## 🌟 Features
 
-- **Porkbun-Inspired Aesthetic**: Playful typography, warm colors, lively sticker badges, and a friendly community tone with subtle Chelsea, MI nods (Clocktower, Bulldogs).
+- **Vibrant & Friendly Aesthetic**: Playful typography, warm colors, lively sticker badges, and a friendly community tone with subtle Chelsea, MI nods (Clocktower, Bulldogs).
 - **Core Activity Directory**:
   - 🏕️ **Cub Scout Pack 455** (Pinewood derby, camping, STEM, Grades K–5)
   - 🏑 **Chelsea Field Hockey** (Youth to Varsity fall season & turf clinics)
@@ -135,7 +135,7 @@ All activities are cleanly organized in `js/activities.js`. To add a new activit
 ```
 ├── index.html            # Main markup & GA4 tag
 ├── css/
-│   └── styles.css        # Porkbun-inspired playful styles & responsive layout
+│   └── styles.css        # Playful styles & responsive layout
 ├── js/
 │   ├── app.js            # App controller, search, filters, modals, GA4 events
 │   └── activities.js     # Structured dataset of community activities

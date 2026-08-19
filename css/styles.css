@@ -1,6 +1,5 @@
 /* ==========================================================================
    Chelsea, MI Community Activity Directory - Stylesheet
-   Inspired by the quirky, clean simplicity of porkbun.com
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
@@ -9,7 +8,7 @@
   --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
-  /* Porkbun + Chelsea Palette */
+  /* Chelsea Community Palette */
   --bg-main: #fdfaf6;
   --bg-surface: #ffffff;
   --bg-subtle: #f6f1eb;
@@ -19,9 +18,9 @@
   --text-muted: #64748b;
   --text-subtle: #94a3b8;
 
-  --porkbun-pink: #ff5e7e;
-  --porkbun-pink-hover: #ff476c;
-  --porkbun-pink-light: #ffeef2;
+  --brand-coral: #ff5e7e;
+  --brand-coral-hover: #ff476c;
+  --brand-coral-light: #ffeef2;
 
   --chelsea-blue: #004b87;
   --chelsea-blue-light: #e8f2fc;
@@ -123,8 +122,8 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: var(--porkbun-pink-light);
-  color: var(--porkbun-pink);
+  background: var(--brand-coral-light);
+  color: var(--brand-coral);
   border: 1.5px solid rgba(255, 94, 126, 0.25);
   padding: 6px 16px;
   border-radius: var(--radius-full);
@@ -142,7 +141,7 @@ body {
 .brand-badge-dot {
   width: 8px;
   height: 8px;
-  background: var(--porkbun-pink);
+  background: var(--brand-coral);
   border-radius: 50%;
   display: inline-block;
   animation: pulseDot 2s infinite ease-in-out;
@@ -164,7 +163,7 @@ body {
 }
 
 .hero-title .highlight-pink {
-  color: var(--porkbun-pink);
+  color: var(--brand-coral);
   position: relative;
   display: inline-block;
 }
@@ -208,7 +207,7 @@ body {
 }
 
 .search-input:focus {
-  border-color: var(--porkbun-pink);
+  border-color: var(--brand-coral);
   box-shadow: var(--shadow-glow), 0 8px 24px -4px rgba(255, 94, 126, 0.15);
 }
 
@@ -269,14 +268,14 @@ body {
 
 .filter-btn:hover {
   background: #ffffff;
-  border-color: var(--porkbun-pink);
-  color: var(--porkbun-pink);
+  border-color: var(--brand-coral);
+  color: var(--brand-coral);
   transform: translateY(-2px);
 }
 
 .filter-btn.active {
-  background: var(--porkbun-pink);
-  border-color: var(--porkbun-pink);
+  background: var(--brand-coral);
+  border-color: var(--brand-coral);
   color: #ffffff;
   box-shadow: 0 4px 12px rgba(255, 94, 126, 0.35);
   transform: translateY(-2px) scale(1.02);
@@ -318,14 +317,14 @@ body {
   left: 0;
   right: 0;
   height: 6px;
-  background: var(--card-accent, var(--porkbun-pink));
+  background: var(--card-accent, var(--brand-coral));
   border-radius: var(--radius-lg) var(--radius-lg) 0 0;
 }
 
 .activity-card:hover {
   transform: translateY(-6px);
   box-shadow: var(--shadow-lg);
-  border-color: var(--card-accent, var(--porkbun-pink));
+  border-color: var(--card-accent, var(--brand-coral));
 }
 
 .card-header {
@@ -339,7 +338,7 @@ body {
   width: 52px;
   height: 52px;
   border-radius: 14px;
-  background: var(--card-accent-bg, var(--porkbun-pink-light));
+  background: var(--card-accent-bg, var(--brand-coral-light));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -453,14 +452,14 @@ body {
 }
 
 .btn-primary {
-  background: var(--porkbun-pink);
+  background: var(--brand-coral);
   color: #ffffff;
   flex: 1;
   box-shadow: 0 2px 8px rgba(255, 94, 126, 0.3);
 }
 
 .btn-primary:hover {
-  background: var(--porkbun-pink-hover);
+  background: var(--brand-coral-hover);
   transform: translateY(-2px);
   box-shadow: 0 4px 14px rgba(255, 94, 126, 0.4);
 }
@@ -474,8 +473,8 @@ body {
 
 .btn-secondary:hover {
   background: #ffffff;
-  border-color: var(--porkbun-pink);
-  color: var(--porkbun-pink);
+  border-color: var(--brand-coral);
+  color: var(--brand-coral);
   transform: translateY(-2px);
 }
 
@@ -576,7 +575,7 @@ body {
 }
 
 .modal-close-btn:hover {
-  background: var(--porkbun-pink);
+  background: var(--brand-coral);
   color: #ffffff;
   transform: rotate(90deg);
 }
@@ -596,7 +595,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--porkbun-pink-light);
+  background: var(--brand-coral-light);
 }
 
 .modal-body h4 {

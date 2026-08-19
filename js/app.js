@@ -279,7 +279,7 @@ window.openActivityModal = function(activityId) {
       <p style="color: #475569; margin-bottom: 4px;"><strong>${escapeHtml(item.location?.venue || 'Chelsea, MI')}</strong></p>
       <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px;">${escapeHtml(item.location?.city || '')}</p>
       ${item.location?.mapUrl ? `
-        <a href="${item.location.mapUrl}" target="_blank" rel="noopener" style="color: var(--porkbun-pink); font-size: 0.88rem; font-weight: 600; text-decoration: underline;">
+        <a href="${item.location.mapUrl}" target="_blank" rel="noopener" style="color: var(--brand-coral); font-size: 0.88rem; font-weight: 600; text-decoration: underline;">
           Open in Google Maps ↗
         </a>
       ` : ''}
@@ -292,7 +292,7 @@ window.openActivityModal = function(activityId) {
         <h4>✉️ Contact Leadership</h4>
         <p style="color: #475569;">
           <strong>${escapeHtml(item.contact.role || 'Contact')}:</strong> 
-          <a href="mailto:${item.contact.email}" style="color: var(--porkbun-pink); text-decoration: underline;">${escapeHtml(item.contact.email)}</a>
+          <a href="mailto:${item.contact.email}" style="color: var(--brand-coral); text-decoration: underline;">${escapeHtml(item.contact.email)}</a>
         </p>
       ` : ''}
 
