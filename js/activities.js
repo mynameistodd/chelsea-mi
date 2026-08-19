@@ -87,9 +87,9 @@ const ACTIVITIES = [
     categoryLabel: "Sports & Athletics",
     icon: "🥍",
     accentColor: "#10b981",
-    badge: "10U – 14U Girls",
+    badge: "Grades 5–8 (Girls)",
     tagline: "The fastest game on two feet (powered by Bulldog grit).",
-    description: "Chelsea Girls Lacrosse program for 10U through 14U players. Learn cradling, stick skills, shooting, and competitive team play for the upcoming spring season!",
+    description: "Chelsea Girls Lacrosse program for 5th through 8th grade players. Learn cradling, stick skills, shooting, and competitive team play for the upcoming spring season!",
     quirkyFact: "Lacrosse is North America's oldest organized sport, and Chelsea girls bring serious speed to the turf!",
     location: {
       venue: "Chelsea Athletic Fields (Home & Away Venues)",
@@ -110,7 +110,7 @@ const ACTIVITIES = [
       { label: "Chelsea Bulldogs Athletics", url: "https://chelseabulldogs.org/", primary: false },
       { label: "Email Coach Haas (ahaas@chelseaschools.org)", url: "mailto:ahaas@chelseaschools.org", primary: false }
     ],
-    tags: ["lacrosse", "lax", "girls lacrosse", "10u", "12u", "14u", "spring sports", "athletics", "bulldogs"]
+    tags: ["lacrosse", "lax", "girls lacrosse", "grades 5-8", "5th grade", "6th grade", "7th grade", "8th grade", "spring sports", "athletics", "bulldogs"]
   },
   {
     id: "beach-ms-drama",
