@@ -5,7 +5,7 @@
  */
 const SITE_CONFIG = {
   suggestActivityFormUrl: "https://forms.gle/S4j4YJZSLQ89kwZ16",
-  contactEmail: "info@chelseami.us"
+  contactEmail: "hello@chelseami.us"
 };
 
 /**
